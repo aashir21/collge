@@ -1,7 +1,9 @@
 # Collge
 
 ### Disclaimer
+
 This repository is a duplicate of the original and does not contain the complete commit history, branches, or pull requests. This information can be provided upon request to prove I own and maintain the codebase.
+
 ----
 
 ## Intro
