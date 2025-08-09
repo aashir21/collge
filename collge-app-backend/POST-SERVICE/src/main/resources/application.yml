@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: POST-SERVICE
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 80MB
+      max-request-size: 80MB
+
+server:
+  port: 9094

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1734030627676" clover="3.2.0">
+  <project timestamp="1734030627676" name="All files">
+    <metrics statements="55" coveredstatements="50" conditionals="22" coveredconditionals="16" methods="8" coveredmethods="6" elements="85" coveredelements="72" complexity="0" loc="55" ncloc="55" packages="3" files="5" classes="5"/>
+    <package name="components">
+      <metrics statements="12" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <file name="StyledText.tsx" path="D:\Projecrs\collge\frontend\components\StyledText.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="Themed.tsx" path="D:\Projecrs\collge\frontend\components\Themed.tsx">
+        <metrics statements="11" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Auth">
+      <metrics statements="27" coveredstatements="26" conditionals="14" coveredconditionals="12" methods="4" coveredmethods="3"/>
+      <file name="EmailCheck.js" path="D:\Projecrs\collge\frontend\components\Auth\EmailCheck.js">
+        <metrics statements="27" coveredstatements="26" conditionals="14" coveredconditionals="12" methods="4" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+        <line num="12" count="21" type="stmt"/>
+        <line num="13" count="21" type="stmt"/>
+        <line num="14" count="21" type="stmt"/>
+        <line num="18" count="21" type="stmt"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="72" count="5" type="stmt"/>
+        <line num="76" count="21" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="86" count="5" type="stmt"/>
+        <line num="87" count="5" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="constants">
+      <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="Colors.ts" path="D:\Projecrs\collge\frontend\constants\Colors.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="theme.js" path="D:\Projecrs\collge\frontend\constants\theme.js">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="114" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="147" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

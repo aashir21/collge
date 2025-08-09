@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: USER-SERVICE
+  profiles:
+    active: prod
+  sendgrid:
+    api-key: ""
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+server:
+  port: 9091

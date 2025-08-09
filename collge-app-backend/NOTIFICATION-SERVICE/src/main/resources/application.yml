@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: NOTIFICATION-SERVICE
+  profiles:
+    active: dev
+
+server:
+  port: 9095

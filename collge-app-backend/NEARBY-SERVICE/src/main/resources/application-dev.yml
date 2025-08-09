@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: NEARBY-SERVICE
+  data:
+    mongodb:
+      uri: ""
+      auto-index-creation: true
+
+service-urls:
+  baseEndpoint: ""
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 9098
+mongock:
+  change-logs-scan-package: com.collge.NEARBY_SERVICE.config

@@ -1,0 +1,17 @@
+
+eureka:
+  instance:
+    hostname: "${HOSTNAME}.eureka"
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER_ADDRESS}
+
+
+spring:
+  application:
+    name: "EUREKA-SERVER"
+
+server:
+  port: 8761

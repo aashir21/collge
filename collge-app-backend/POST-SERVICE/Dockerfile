@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9094
+ADD target/POST-SERVICE-*.jar POST-SERVICE.jar
+ENTRYPOINT ["java","-jar","/POST-SERVICE.jar"]

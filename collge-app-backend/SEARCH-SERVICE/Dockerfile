@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9093
+ADD target/SEARCH-SERVICE-*.jar SEARCH-SERVICE.jar
+ENTRYPOINT ["java","-jar","/SEARCH-SERVICE.jar"]

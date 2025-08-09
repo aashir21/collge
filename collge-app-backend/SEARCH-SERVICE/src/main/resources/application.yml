@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SEARCH-SERVICE
+  profiles:
+    active: dev
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+server:
+  port: 9093
+management:
+  security:
+    enabled: false
+

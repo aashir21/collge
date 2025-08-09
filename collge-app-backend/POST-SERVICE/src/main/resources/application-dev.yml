@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: POST-SERVICE
+  data:
+    mongodb:
+      uri: ""
+  servlet:
+    multipart:
+      max-file-size: 16MB
+      max-request-size: 16MB
+
+service-urls:
+  baseEndpoint: "http://localhost:9092"
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+#// DIGITAL OCEAN CREDENTIALS
+do:
+  spaces:
+    accessKey: ""
+    secretKey: ""
+
+server:
+  port: 9094
+mongock:
+  change-logs-scan-package: com.collge.POSTSERVICE.config

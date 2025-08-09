@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9098
+ADD target/NEARBY-SERVICE-*.jar NEARBY-SERVICE.jar
+ENTRYPOINT ["java","-jar","/NEARBY-SERVICE.jar"]

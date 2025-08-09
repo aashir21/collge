@@ -1,0 +1,2 @@
+ALTER TABLE user.users
+ADD last_login DATETIME DEFAULT NULL;

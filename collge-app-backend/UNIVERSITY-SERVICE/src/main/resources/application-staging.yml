@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: UNIVERSITY-SERVICE
+  datasource:
+    url: ""
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ""
+    password: ""
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+server:
+  port: 9090
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-0
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#management:
+#  tracing:
+#    sampling:
+#      probability: 1
+#
+#

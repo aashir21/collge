@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9091
+ADD target/USER-SERVICE-*.jar USER-SERVICE.jar
+ENTRYPOINT ["java","-jar","/USER-SERVICE.jar"]

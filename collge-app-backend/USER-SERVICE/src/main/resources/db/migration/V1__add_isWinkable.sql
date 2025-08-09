@@ -1,0 +1,2 @@
+ALTER TABLE user.users
+ADD column_name TINYINT(1) NOT NULL DEFAULT 1;

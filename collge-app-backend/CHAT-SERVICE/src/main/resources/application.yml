@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CHAT-SERVICE
+  profiles:
+    active: dev
+server:
+  port: 9097

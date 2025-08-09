@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: CHAT-SERVICE
+  data:
+    mongodb:
+      uri: ""
+
+service-urls:
+  baseEndpoint: "http://localhost:9092"
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 9097
+
+mongock:
+  change-logs-scan-package: com.collge.CHAT_SERVICE.config

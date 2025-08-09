@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: POST-SERVICE
+  data:
+    mongodb:
+      uri: ""
+  servlet:
+    multipart:
+      max-file-size: 80MB
+      max-request-size: 80MB
+
+service-urls:
+  baseEndpoint: ""
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-0
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
+
+#// DIGITAL OCEAN CREDENTIALS
+do:
+  spaces:
+    accessKey: ""
+    secretKey: ""
+
+server:
+  port: 9094
+mongock:
+  change-logs-scan-package: com.collge.POSTSERVICE.config

@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: ADMIN-SERVICE
+  data:
+    mongodb:
+      uri: ""
+  servlet:
+    multipart:
+      max-file-size: 90MB
+      max-request-size: 90MB
+
+service-urls:
+  baseEndpoint: ""
+
+admin-service:
+  dbName: "admin-service"
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-0
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
+
+#// DIGITAL OCEAN CREDENTIALS
+do:
+  spaces:
+    accessKey: ""
+    secretKey: ""
+
+server:
+  port: 9096
+mongock:
+  change-logs-scan-package: com.collge.ADMIN_SERVICE.config

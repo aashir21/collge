@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9097
+ADD target/CHAT-SERVICE-*.jar CHAT-SERVICE.jar
+ENTRYPOINT ["java","-jar","/CHAT-SERVICE.jar"]

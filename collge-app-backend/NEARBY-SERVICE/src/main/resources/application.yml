@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: NEARBY-SERVICE
+  profiles:
+    active: prod
+
+server:
+  port: 9098
+logging:
+  level:
+    root: info

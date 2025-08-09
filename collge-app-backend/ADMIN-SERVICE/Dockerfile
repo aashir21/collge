@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 9096
+ADD target/ADMIN-SERVICE-*.jar ADMIN-SERVICE.jar
+ENTRYPOINT ["java","-jar","/ADMIN-SERVICE.jar"]

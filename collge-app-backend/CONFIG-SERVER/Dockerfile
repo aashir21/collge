@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 8888
+ADD target/CONFIG-SERVER-*.jar CONFIG-SERVER.jar
+ENTRYPOINT ["java","-jar","/CONFIG-SERVER.jar"]
