@@ -1,5 +1,10 @@
 # Collge
 
+### Note
+This repository is a duplicate of the original and does not contain the complete commit history, branches, or pull requests. This information can be provided upon request to prove I own and maintain the codebase.
+
+----
+
 Collge is a full-stack social networking platform designed for university students, featuring real-time chat, post sharing, notifications, user discovery, and more. The project is organized into two main parts: a **backend** (microservices architecture) and a **frontend** (React Native app).
 
 ---
